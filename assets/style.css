@@ -1,0 +1,172 @@
+/* DEFAULTS */
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #555555;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+.inner-wrap {
+    max-width: 960px;
+    margin-inline: auto;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #ddd;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* SECTION 1 */
+.section_1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.section_1 h1 {
+    font-size: 25px;
+    line-height: 37px;
+    color: #004986;
+    margin-bottom: 40px;
+}
+
+.section_1 span {
+    color: #F14444;
+}
+
+.section_1 p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+/* LEAD */
+.lead {
+    padding: 20px;
+    background-color: #092846;
+}
+
+.lead p {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+/* SECTION 2 */
+
+.section_2 .inner-wrapper {
+    max-width: 800px;
+    margin-inline: auto;
+    padding: 82px 20px 52px;
+}
+
+.section_2 .row {
+    background-color: #FFF5EA;
+    border-radius: 10px;
+    margin-bottom: 52px;
+    padding: 0 20px 20px;
+}
+
+.section_2 .row .custom-fluid,
+.section_2 .row .custom-col {
+    padding: 0;
+}
+
+.section_2 .row .custom-col:first-child {
+    max-width: 500px;
+}
+
+.section_2 .row .custom-col:last-child {
+    max-width: 240px;
+}
+
+.section_2 .row .custom-col:last-child img {
+    margin-top: -40px;
+}
+
+.section_2 .row:last-child .custom-col:last-child img {
+    margin-top: 20px;
+}
+
+.section_2 .button {
+    max-width: 340px;
+    font-size: 20px;
+    line-height: 29px;
+    background-color: #F1890E;
+    border-radius: 10px;
+    border-bottom: 8px solid #C16E0B;
+    font-weight: 700;
+    color: #fff;
+    padding: 11px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    display: block;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.section_2 h2 {
+    color: #F1890E;
+    font-family: 'Proxima Nova';
+    font-size: 80px;
+    line-height: 98px;
+    margin-bottom: 4px;
+    margin-top: -42px;
+}
+
+.section_2 p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.section_2 .list {
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+.section_2 ul {
+    list-style: none;
+}
+
+.section_2 ul li {
+    position: relative;
+}
+
+.section_2 ul li:before {
+    position: absolute;
+    left: -17px;
+}
+
+
+.section_2 .round li:before {
+    content: "○";
+}
+
+.section_2 .cross li:before {
+    content: "×";
+}
+
+.section_2 .dot li:before {
+    content: "・";
+}
